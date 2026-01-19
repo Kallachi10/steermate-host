@@ -20,4 +20,4 @@ databases:
   - name: steermate-db
     databaseName: steermate
     user: steermate_user
-    postgresqlMajorVersion: 15  # Or match your version
+    postgresMajorVersion: 15  # Or match your version

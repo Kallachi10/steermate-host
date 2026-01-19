@@ -9,7 +9,7 @@ services:
       - key: DATABASE_URL
         value: ${{ steermate-db.DATABASE_URL }}
       - key: SECRET_KEY
-        value: your-secret-key-here  # Replace with a secure key
+        value: 35259ba9b18faf1d74ad847a7a17b260a1746a3dc30d3ff428ba2251f0a922  # Replace with a secure key
       - key: ALGORITHM
         value: HS256
       - key: ACCESS_TOKEN_EXPIRE_MINUTES
